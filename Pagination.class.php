@@ -276,7 +276,7 @@
 
             // buffer handling
             ob_start();
-            include 'render.inc.php';
+            include dirname(__FILE__) . '/render.inc.php';
             $_response = ob_get_contents();
             ob_end_clean();
             return $_response;
