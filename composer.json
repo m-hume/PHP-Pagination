@@ -1,0 +1,34 @@
+{
+  "name": "m-hume/php-pagination",
+  "type": "library",
+  "description": "Simple and lightweight PHP pagination class that works with Twitter Bootstrap. Manages pagination variables through instantiable class, and markup rendering through view-like include file.",
+  "authors": [
+    {
+      "name": "onassar Oliver Nassar"
+    },
+    {
+      "name": "AlbinoDrought Sean"
+    }
+  ],
+  "homepage": "http://xajaxproject.org",
+  "license": "The MIT License",
+  "keywords": [
+    "Pagination",
+    "PHP"
+  ],
+  "support": {
+    "issues": "https://github.com/m-hume/PHP-Pagination/issues",
+    "source": "https://github.com/m-hume/PHP-Pagination"
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pagination\\": ""
+    },
+    "files": [
+      "Pagination.class.php"
+    ]
+  }
+}
